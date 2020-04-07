@@ -5,3 +5,15 @@
 "nnoremap <Leader><Leader> :UndotreeHide<CR>:NERDTreeToggle<CR>
 
 "highlight Normal guibg=NONE ctermbg=NONE
+
+"some custom below
+
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+nnoremap <C-S-Up> ddP
+nnoremap <C-S-Down> ddp
+
+nnoremap <Leader>nn :NERDTreeToggle<CR>

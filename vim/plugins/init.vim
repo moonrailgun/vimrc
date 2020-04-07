@@ -81,14 +81,14 @@ if v:version >= 801
   call add(s:builtin_plugins, 'illuminate')
 endif
 
-if HasFeatures()
+"if HasFeatures()
   if !empty(g:custom_completion_plugin)
     call add(s:builtin_plugins, g:custom_completion_plugin)
   endif
   if !empty(g:custom_lint_plugin)
     call add(s:builtin_plugins, g:custom_lint_plugin)
   endif
-endif
+"endif
 
 let s:enabled_builtin_plugins = []
 
